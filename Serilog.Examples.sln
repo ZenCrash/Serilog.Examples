@@ -5,9 +5,13 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Examples.LogToFile", "Serilog.Examples.LogToFile\Serilog.Examples.LogToFile.csproj", "{EC15982C-96B8-4755-A0B4-C5FA7C8934D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Examples.LogToConsole", "Serilog.Examples.LogToConsole\Serilog.Examples.LogToConsole.csproj", "{018C3429-B83B-4247-B86E-A1661E65F7AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Examples.LogToConsole", "Serilog.Examples.LogToConsole\Serilog.Examples.LogToConsole.csproj", "{018C3429-B83B-4247-B86E-A1661E65F7AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Examples.LogToSeq", "Serilog.Examples.LogToSeq\Serilog.Examples.LogToSeq.csproj", "{367DF4FA-CCF0-4B6B-A376-530648514DCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Examples.LogToSeq", "Serilog.Examples.LogToSeq\Serilog.Examples.LogToSeq.csproj", "{367DF4FA-CCF0-4B6B-A376-530648514DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Examples.LogToDebug", "Serilog.Examples.LogToDebug\Serilog.Examples.LogToDebug.csproj", "{36021EB2-E9F2-4A9B-8876-CC8B34EF5C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Examples.LogToAll", "Serilog.Examples.LogToAll\Serilog.Examples.LogToAll.csproj", "{8A451962-231E-4B5B-AD4A-8EBEACBB8DC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{367DF4FA-CCF0-4B6B-A376-530648514DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{367DF4FA-CCF0-4B6B-A376-530648514DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{367DF4FA-CCF0-4B6B-A376-530648514DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36021EB2-E9F2-4A9B-8876-CC8B34EF5C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36021EB2-E9F2-4A9B-8876-CC8B34EF5C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36021EB2-E9F2-4A9B-8876-CC8B34EF5C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36021EB2-E9F2-4A9B-8876-CC8B34EF5C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A451962-231E-4B5B-AD4A-8EBEACBB8DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A451962-231E-4B5B-AD4A-8EBEACBB8DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A451962-231E-4B5B-AD4A-8EBEACBB8DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A451962-231E-4B5B-AD4A-8EBEACBB8DC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

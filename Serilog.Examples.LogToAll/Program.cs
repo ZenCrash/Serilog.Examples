@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Serilog.Context;
 
-namespace Serilog.Examples.LogToSeq
+namespace Serilog.Examples.LogToAll
 {
   internal class Program
   {
