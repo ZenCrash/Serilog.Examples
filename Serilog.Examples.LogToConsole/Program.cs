@@ -26,7 +26,7 @@ namespace Serilog.Examples.LogToConsole
       Log.Error("Hello Error World!");
       Log.Fatal("Hello Fatal World!");
 
-      using (LogContext.PushProperty("MeaningOfLife", 42)) //contextual information to your log events
+      using (LogContext.PushProperty("MeaningOfLife", 42)) //contextual information to your log events. (Debug, and Console will not be able to see the properties of this)
       {
         Log.Information("What is the meaning of life");
       }

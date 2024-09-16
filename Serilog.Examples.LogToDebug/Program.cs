@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Serilog.Context;
 
-namespace Serilog.Examples.LogToFile
+namespace Serilog.Examples.LogToDebug
 {
   internal class Program
   {
