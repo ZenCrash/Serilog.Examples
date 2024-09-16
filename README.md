@@ -7,7 +7,7 @@ Serilog is a diagnostic logging library for .NET applications.
 <h2>Projects:</h2>
 <ul>
   <li>Serilog.Examples.LogToDebug (Logs to IDE output window)</li>
-  <li>Serilog.Examples.LogToConsole (Logs to console/)</li>
+  <li>Serilog.Examples.LogToConsole (Logs to console)</li>
   <li>Serilog.Examples.LogToFile (Logs to file)</li>
   <li>Serilog.Examples.LogToSeq (Logs to Seq web server)</li>
   <li>Serilog.Examples.LogAll (Logs to all)</li>
