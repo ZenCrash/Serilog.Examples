@@ -13,12 +13,12 @@ Serilog is a diagnostic logging library for .NET applications.
   <li>Serilog.Examples.LogAll (Logs to all)</li>
 </ul>
 
-<h2>Installation:</h2>
+<h2>Serilog Installation:</h2>
 In Visual studio select "Project" -> "Manage Nuget packages". Select "Browse" and search for Serilog,
 <br>and install the package needed:
 <br>Alternatively you can install the packages in the project using terminal by using the `.NET CLI` commands provided.
 
-<h3>Nuget Packages:</h3>
+<h3>Serilog Nuget Packages:</h3>
 
 <ul>
   <li><IMG  src="https://avatars.githubusercontent.com/u/5691010?s=200&amp;v=4" width="14<"/> <a href="https://www.nuget.org/packages/Serilog/4.0.2-dev-02226#readme-body-tab">Serilog</a> (Advanced logging)</li>
