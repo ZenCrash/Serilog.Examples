@@ -13,9 +13,9 @@ namespace Serilog.Examples.LogToConsole
         .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
         .Build();
 
+      // Configure Serilog using appsettings.json and enrich log context with additional properties.
       Log.Logger = new LoggerConfiguration()
         .ReadFrom.Configuration(configuration)
-        .Enrich.FromLogContext()
         .CreateLogger();
 
       //Log examples
@@ -26,11 +26,15 @@ namespace Serilog.Examples.LogToConsole
       Log.Error("Hello Error World!");
       Log.Fatal("Hello Fatal World!");
 
-      using (LogContext.PushProperty("MeaningOfLife", 42)) //contextual information to your log events. (Debug, and Console will not be able to see the properties of this)
+      //contextual information to your log events.
+      //Debug, and Console will not be able to see the properties of this
+      using (LogContext.PushProperty("MeaningOfLife", 42))
       {
         Log.Information("What is the meaning of life");
       }
 
+      //Flush all buffered log entries and properly release resources associated with the logger.
+      Log.CloseAndFlush();
     }
   }
 }
